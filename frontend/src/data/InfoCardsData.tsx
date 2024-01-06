@@ -86,7 +86,7 @@ const builderBenefits = [
   {
     icon: iconConsolidateContents,
     title: "Consolidate Contents",
-    body: "Effectively streamline and centralize your digital content with our comprehensive tools and strategic approaches. Elevate your content management by efficiently organizing, optimizing, and presenting your materials, ensuring they resonate with maximum impact and engagement.",
+    body: "Effectively streamline your digital content with our comprehensive tools. Elevate your content management by efficiently ensuring they resonate with maximum impact.",
   },
 
   // Add more benefits as needed...

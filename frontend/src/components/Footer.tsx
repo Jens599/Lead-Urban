@@ -15,30 +15,30 @@ const Footer = () => {
         </div>
         <div className="row-span-6 space-y-5">
           <h1 className="text-lg font-bold">Solutions</h1>
-          <p>Product 1</p>
-          <p>Product 2</p>
-          <p>Product 3</p>
-          <p>Product 4</p>
-          <p>Product 5</p>
-          <p>Product 6</p>
+          <p>Solutions 1</p>
+          <p>Solutions 2</p>
+          <p>Solutions 3</p>
+          <p>Solutions 4</p>
+          <p>Solutions 5</p>
+          <p>Solutions 6</p>
         </div>
         <div className="row-span-6 space-y-5">
           <h1 className="text-lg font-bold">Developers</h1>
-          <p>Product 1</p>
-          <p>Product 2</p>
-          <p>Product 3</p>
-          <p>Product 4</p>
-          <p>Product 5</p>
-          <p>Product 6</p>
+          <p>Developers 1</p>
+          <p>Developers 2</p>
+          <p>Developers 3</p>
+          <p>Developers 4</p>
+          <p>Developers 5</p>
+          <p>Developers 6</p>
         </div>
         <div className="row-span-6 space-y-5">
           <h1 className="text-lg font-bold">Businesses</h1>
-          <p>Product 1</p>
-          <p>Product 2</p>
-          <p>Product 3</p>
-          <p>Product 4</p>
-          <p>Product 5</p>
-          <p>Product 6</p>
+          <p>Business 1</p>
+          <p>Business 2</p>
+          <p>Business 3</p>
+          <p>Business 4</p>
+          <p>Business 5</p>
+          <p>Business 6</p>
         </div>
         <div className="row-span-6 space-y-5">
           <h1 className="text-lg font-bold">Contact Us</h1>

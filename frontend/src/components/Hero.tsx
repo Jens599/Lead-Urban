@@ -3,7 +3,7 @@ import hero from "../assets/WhatsApp Image 2023-12-30 at 12.39.10_69049ec7.jpg";
 
 const Hero = () => {
   return (
-    <div className=" h-screen">
+    <div className=" h-dvh">
       <div className="relative h-4/5 rounded-b-[5rem] shadow-2xl shadow-black">
         <img
           src={bg}
@@ -11,10 +11,10 @@ const Hero = () => {
         />
         <div className="absolute inset-0 flex items-center justify-center ">
           <div className="h-full w-3/5 py-44 text-center lg:w-3/5 lg:py-20 xl:w-2/5">
-            <p className="pb-10 text-5xl font-bold text-accent-orange drop-shadow-xl lg:text-7xl">
+            <p className="pb-10 text-4xl font-bold text-accent-orange drop-shadow-xl lg:text-7xl">
               Explore your business ideas into a real digital form.
             </p>
-            <p className="p-4 text-2xl font-semibold text-white lg:text-3xl">
+            <p className="p-4 text-xl font-semibold text-white lg:text-3xl">
               We serve you with all type of web solutions.
             </p>
           </div>

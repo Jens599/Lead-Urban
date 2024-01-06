@@ -6,7 +6,6 @@ import Info from "../components/Info";
 import { builderBenefits, cloudJourney } from "../data/InfoCardsData";
 import Spacer from "../components/Spacer";
 import Title from "../components/Title";
-
 const Landing = () => {
   return (
     <>
@@ -54,7 +53,6 @@ const Landing = () => {
           <Info contents={cloudJourney} />
 
           <Spacer size={3} />
-
         </div>
       </div>
     </>
