@@ -9,19 +9,27 @@ interface Props {
 
 const LandingCards = ({ img, body, title, link }: Props) => {
   return (
-    <div className="mx-6 grid grid-cols-5 grid-rows-5 overflow-hidden rounded-3xl bg-primary-light-blue text-white shadow-2xl shadow-black lg:mx-48 lg:h-96">
-      <h1 className="order-1 col-span-5 pl-8 pr-8 pt-6 text-3xl font-bold text-accent-orange lg:col-span-3 text-shadow-sm">
-        {title}
-      </h1>
-      <div className="order-2 col-span-5 row-span-3 pl-8 pr-8 pt-6 text-xl lg:order-3 lg:col-span-3">
-        <p className="line-clamp-[7]">{body}</p>
-      </div>
-      <div className="order-3 col-span-5 flex items-center gap-3 pb-6 pl-8 pr-8 pt-6 text-xl lg:order-4 lg:col-span-3">
-        <div className="line-clamp-1">{link}</div>
-        <FaArrowRight />
-      </div>
-      <div className="order-4 col-span-5 flex bg-red-300 lg:order-2 lg:col-span-2 lg:row-span-5">
-        <img src={img} className="object-cover" />
+    <div className="flex justify-center">
+      <div className="grid h-[554px] w-[380px] overflow-hidden rounded-3xl bg-primary-light-blue text-white lg:w-11/12 lg:grid-cols-5 lg:grid-rows-4 ">
+        <div className="row-span-3 flex flex-col lg:col-start-1 lg:col-end-4 lg:row-start-1 lg:row-end-5 lg:px-8 lg:py-8">
+          <div className="flex grow flex-col justify-between px-4 py-6">
+            <div className="space-y-2">
+              <div className="w-[24ch] text-2xl font-bold lg:text-5xl">
+                {title}
+              </div>
+              <div className="w-[38ch] font-semibold lg:text-3xl">{body}</div>
+            </div>
+            <div className="flex items-center gap-2 font-semibold lg:text-3xl">
+              {link}
+              <div className="">
+                <FaArrowRight />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row-span-2 mt-4 overflow-hidden lg:col-start-4 lg:col-end-6 lg:row-start-1 lg:row-end-5 lg:mt-0">
+          <img src={img} className="size-full object-cover" />
+        </div>
       </div>
     </div>
   );

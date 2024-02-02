@@ -11,7 +11,7 @@ const Hero = () => {
         />
         <div className="absolute inset-0 flex items-center justify-center ">
           <div className="h-full w-3/5 py-44 text-center lg:w-3/5 lg:py-20 xl:w-2/5">
-            <p className="pb-10 text-4xl font-bold text-accent-orange drop-shadow-xl lg:text-7xl">
+            <p className="text-accent-orange pb-10 text-4xl font-bold drop-shadow-xl lg:text-7xl">
               Explore your business ideas into a real digital form.
             </p>
             <p className="p-4 text-xl font-semibold text-white lg:text-3xl">
